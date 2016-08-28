@@ -20,6 +20,7 @@
   "main": "index.js",
   "scripts": {
     "install:android:debug": "pushd android && ./gradlew installDebug && popd",
+    "install:ios:debug": "node node_modules/react-native/local-cli/cli.js run-ios",
     "start": "watchman watch-del-all && adb reverse tcp:8081 tcp:8081 && node node_modules/react-native/local-cli/cli.js start",
     "build": ": #rm -rf dist && babel src -d dist",
     "lint": "eslint src test",
