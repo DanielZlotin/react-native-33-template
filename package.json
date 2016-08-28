@@ -5,6 +5,15 @@
   "description": "A clean RN33 template",
   "license": "MIT",
   "author": "Daniel Zlotin <zlotindaniel@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielZlotin/react-native-33-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanielZlotin/react-native-33-template/issues"
+  },
+  "homepage": "https://github.com/DanielZlotin/react-native-33-template",
+  "readme": "https://github.com/DanielZlotin/react-native-33-template#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
